@@ -1,0 +1,15 @@
+{
+    "name": "ricky/identity-access",
+    "description": "Provides authentication and authorization services",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Ricky Reed",
+            "email": "rreed@salestreamsoft.com"
+        }
+    ],
+    "require": {}
+}
