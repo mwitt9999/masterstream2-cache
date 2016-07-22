@@ -1,9 +1,10 @@
 {
-    "name": "ricky/identity-access",
+    "name": "ricky/identity-access-core",
     "description": "Provides authentication and authorization services",
     "type": "library",
     "require-dev": {
-        "phpunit/phpunit": "^5.4"
+        "phpunit/phpunit": "^5.4",
+        "mockery/mockery": "^0.9.5"
     },
     "authors": [
         {
@@ -11,5 +12,10 @@
             "email": "rreed@salestreamsoft.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Salestream\\IdentityAccess\\": "src/Salestream/IdentityAccess"
+        }
+    }
 }
