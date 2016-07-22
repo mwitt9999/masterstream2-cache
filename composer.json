@@ -1,5 +1,5 @@
 {
-    "name": "ricky/identity-access-core",
+    "name": "salestreamsoft/identity-access-core",
     "description": "Provides authentication and authorization services",
     "type": "library",
     "require-dev": {
