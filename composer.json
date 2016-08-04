@@ -1,21 +1,23 @@
 {
-    "name": "salestreamsoft/identity-access-core",
-    "description": "Provides authentication and authorization services",
+    "name": "salestreamsoft/cache",
+    "description": "Cache Layer that will implement any caching service",
     "type": "library",
+    "require": {
+        "predis/predis": "^1.1"
+    },
     "require-dev": {
         "phpunit/phpunit": "^5.4",
         "mockery/mockery": "^0.9.5"
     },
     "authors": [
         {
-            "name": "Ricky Reed",
-            "email": "rreed@salestreamsoft.com"
+            "name": "Matthew Witt",
+            "email": "mwitt@salestreamsoft.com"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
-            "Salestream\\IdentityAccess\\": "src/Salestream/IdentityAccess"
+            "Salestreamsoft\\Cache\\": "src/Salestreamsoft/Cache"
         }
     }
 }
