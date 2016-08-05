@@ -18,7 +18,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Salestreamsoft\\Cache\\": "src/Salestreamsoft/Cache"
+            "Cache\\Application\\": "../Application"
         }
     }
 }
