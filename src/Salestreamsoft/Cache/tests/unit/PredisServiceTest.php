@@ -40,7 +40,6 @@ class PredisServiceTest extends \Codeception\Test\Unit
     public function testMe()
     {
         $cacheService = new CacheService();
-        var_dump('here');exit;
 
         $result = $cacheService->checkKeyExists(NULL);
         $this->assertEquals($result, 0);
