@@ -1,8 +1,10 @@
 {
-    "name": "salestreamsoft/cache",
-    "description": "Cache Layer that will implement any caching service",
+    "name": "cache/testsuite",
+    "description": "testsuite for unit testing cache service",
     "type": "library",
     "require": {
+        "codeception/codeception": "^2.2",
+        "vlucas/phpdotenv": "^2.3",
         "predis/predis": "^1.1"
     },
     "require-dev": {
