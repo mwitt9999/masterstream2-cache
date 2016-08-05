@@ -1,14 +1,11 @@
 {
-    "name": "cache/testsuite",
-    "description": "testsuite for unit testing cache service",
+    "name": "salestreamsoft/cache",
+    "description": "Cache layer for masterstream2",
     "type": "library",
     "require": {
-        "codeception/codeception": "^2.2",
-        "vlucas/phpdotenv": "^2.3",
         "predis/predis": "^1.1"
     },
     "require-dev": {
-        "mockery/mockery": "^0.9.5"
     },
     "authors": [
         {
@@ -18,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Salestreamsoft\\Cache\\": "../Cache"
+            "Salestreamsoft\\Cache\\": "src/Salestreamsoft/Cache"
         }
     }
 }
