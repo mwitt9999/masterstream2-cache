@@ -52,7 +52,5 @@ class PredisServiceTest extends \Codeception\Test\Unit
 
         $result = $cacheService->getKey('test_key');
         $this->assertEquals($result, 'test_value');
-
-
     }
 }
