@@ -6,14 +6,11 @@
         "predis/predis": "^1.1"
     },
     "require-dev": {
-        "salestreamsoft/cache-tests": "1.0.*"
+      "codeception/codeception": "^2.2",
+      "vlucas/phpdotenv": "^2.3",
+      "predis/predis": "^1.1",
+      "mockery/mockery": "^0.9.5"
     },
-    "repositories": [
-        {
-            "url": "https://github.com/mwitt9999/masterstream2-cache-tests.git",
-            "type": "git"
-        }
-    ],
     "authors": [
         {
             "name": "Matthew Witt",
